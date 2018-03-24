@@ -24,7 +24,7 @@ I tested my Kalman Filter algorithm in the simulator with Dataset 1. I evaluated
 
 RMSE measures the deviation of the estimated state from the true state. The lower are the RMSE values for our `px`, `py`, `vx`, `vy` output coordinates, the higher is our estimation accuracy. The RMSE calculation is being handled in the `tools.cpp` file by the `CalculateRMSE` function, which the `main.cpp` is calling. In the picture below you can see my RMSE results.
 
-![RMSE values](https://drive.google.com/open?id=1nWnbNh56JtE16M7tgn02RCkfRCiN3orm)
+![RMSE values](ExtendedKalmanFilter/results/rmse_values.png)
 
 ## Algorithm
 
